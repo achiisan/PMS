@@ -1,0 +1,34 @@
+body {
+	background: #25242a;
+	background-image: url(img/pizza.png);
+}
+
+#main-title img {
+	width: 100%;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+#buttonplan {
+	background-color: #fa7307;
+	margin-left: 40%;
+	height: 50%;
+}
+#main_content_slab {
+	color: white;
+	text-align: right;
+	padding-top: 20%;
+
+}
+
+#main_content_slab h1:hover {
+	color: #fa7307;
+
+}
+
+#footer_design {
+	position: absolute;
+	bottom:0%;
+	width: 100%;
+	overflow: hidden;
+}
