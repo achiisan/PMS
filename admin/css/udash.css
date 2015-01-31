@@ -1,0 +1,31 @@
+.uhead{
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	/*background-color: blue;*/
+}
+
+table{
+	font-size: 15px;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+}
+.colp{
+	border-right: 1px solid #fe7105;
+	padding: 2px;
+}
+
+.detailsv{
+	border: 0px;
+	background-color: orange;
+	color: white;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
+}
+
+#table {
+	height: 200px;
+	overflow-y: scroll;
+}

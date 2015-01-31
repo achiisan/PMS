@@ -1,0 +1,98 @@
+.row{
+	/*background-color: white;*/
+	height: 96vh;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.column{
+	/*background-color: black;*/
+	color: white;
+	height: 600px;
+	width: 395px;
+	float: left;
+}
+
+#rightcol{
+	color: white;
+}
+.headertitle{
+	/*background-color: green;*/
+	color: white;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35px;
+}
+
+.graphdiv{
+	border-color: white;
+	border: 2px solid;
+	height: 200px;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+
+#addedfood{
+	height: 250px;
+	width: 350px;
+}
+
+#newfoodtitle{
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+#imagefood{
+	height: 100px;
+	width: 165px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 60px;
+}
+
+#foodDesc{
+	float: right;
+	height: 190px;
+	width: 169px;
+	margin-top: 20px;
+	margin-right: 3px;
+}
+
+#titleDesc{
+	font-size: 18px;
+	text-align: center;
+}
+
+#desc{
+	color: white;
+	 word-wrap: break-word;
+}
+
+.eventsnow{
+	/*border-color: white;
+	border: 2px solid;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	height: 140px;
+	width: 280px;
+}
+
+.ht{
+	color: white;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+#vieworder{
+	background-color: orange;
+	margin-left: 10px;
+	margin-top: 5px;
+}

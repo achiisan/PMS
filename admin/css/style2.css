@@ -1,0 +1,19 @@
+/*put additional css here*/
+
+/*login page style*/
+
+.loginpanel
+{
+width: 40%;
+display:block;
+padding: 10px;
+float: left;
+}
+
+.registerpanel
+{
+width: 50%;
+display:block;
+padding: 10px;
+float: right;
+}

@@ -1,0 +1,120 @@
+#foodcontainer{
+	/*background-color: white;	/*change this. DO NOT FORGET.*/
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 745px;
+	margin-top: 20px;
+	min-height: 900px;
+	opacity: 1;
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.foodgrid{
+	height: 155px;
+	width: 160px;
+	/*background-color: rgb(30, 30, 30);*/
+	opacity: 1;
+	float: left;
+	margin-left: 20px;
+	color: white;
+	margin-top: 20px;
+}
+.ItemTitle{
+	margin-top: -5px;
+	color: white;
+	font-family: Arial;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.delbtn{
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: #ffffff;
+	background: #ff0000;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+	border-style: none;
+	margin-left: 38px;
+}
+
+.editbtn{
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: #ffffff;
+	background: rgb(1, 174, 51);
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+	border-style: none;
+	margin-left: 5px;
+}
+
+.addbtn, #submit{
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	color: #ffffff;
+	background: rgb(254, 113, 1);
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+	border-style: none;
+	margin-left: 50px;
+}
+
+.edit_title{
+	color: white;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+}
+
+.editform, #forme{
+	background-image: url("../images/wall.jpg");
+	padding-left: 10px;
+	margin-top: 50px;
+	padding-top: 5px;
+	/*margin-left: 115px;*/
+	width: 500px;
+	min-height: 550px;
+	border-radius: 10px;
+	box-shadow: 0 0 1em 0.5em gray;
+	display: none;
+	position: fixed;
+	left: 30%;
+}
+
+.formp{
+	color: white;
+	font-size: 15px;
+}
+
+#submit{
+	margin-left: 10px;
+	font-size: 20px;
+	margin-top: 250px;
+}
+
+#cancel{
+	margin-left: 230px;
+	font-size: 20px;
+	margin-top: 250px;
+	background-color: #B40404;
+}
+
+.edit_title .formp{
+	color: white;
+}
+
+}

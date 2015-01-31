@@ -1,36 +1,53 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+
+?>
+<!doctype html>
 <html>
-	<head>
-		<script src="custom_scripts/jquery-2.1.1.js"></script>
-		<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
-		<link type="text/css" rel="stylesheet" href="custom_scripts/styler.css"/>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="custom_scripts/effects.js"></script>
+<head>
+	<title>Papa Lor's Pizza</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/style1.css" /><!--style1.css is the stylesheet for homepage format-->
+    <link rel="stylesheet" type="text/css" href="css/style2.css" /><!--style1.css is the stylesheet for anything else-->
+	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+</head>
+<body>
+	<div id="main_div">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<div id="main-wrapper">
-			<div id="main_content_slab" class="col-lg-4 col-xs-12 col-md-12">
-				<h1>Home <span class="glyphicon glyphicon-home"></span></h1>
-				<h1>My Parties <span class="glyphicon glyphicon-pushpin"></span></h1>
-				<h1>Contact Us! <span class="glyphicon glyphicon-phone"></span></h1>
+			<!--Button1 (left) -->
+			<div id="content_button1">
+				<h1>Manage your existing parties here</h1>
+				<a href="newuserdashboard.php"><!--LINK TO INFORMATION PAGE ABOUT THE PARTY ALLOCATOR -->
+						<img style="margin-left: 10%;"src="images/login.png" />
+					</a><br>
 			</div>
-
-			<div id="main_content" class="col-xs-12 col-lg-8 col-md-8">
-				<div id="main-title">
-					<img src="img/title.png"/>
-				</div>
-				<button class="btn btn-lg btn-warning" id="buttonplan">Plan my party now!</button>
-
-
-			</div>
-
-			<div id="footer_design" class="col-xs-12 col-lg-12 col-md-12">
+			<!--Button1 (right) -->
+			<div id="content_button2">
+				<h1>Create a new party here</h1>
+				<center>
+					<a href="user-menu.php"><!--LINK TO INFORMATION PAGE ABOUT THE PARTY ALLOCATOR -->
+						<img src="images/clbbtn.png" />
+					</a><br>
 				
-					<img src="img/pizza.png"/>
-			
+				</center>
+				 
 			</div>
+			<!--logo (center) -->
+			<div id="content_center">
+				<img src = "images/pllogo.png" width="100%" />
+			</div>
+
 		</div>
-	</body>
+
+			<!--Pizza pictures (bottom)-->
+			<div id="footer_div">
+				
+			</div>
+</body>
+
 </html>

@@ -1,0 +1,353 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%; 
+	background: #000;
+}
+
+
+.content {
+	min-height: 100%;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+	z-index: 0; 
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.top_block{
+	width: 100%;
+	float: top;
+	display: block; 
+	z-index: 1;
+}
+
+.bottom_block {
+	position: absolute;
+	width: 100%;
+	display: block;
+	bottom: 0; 
+}
+
+.left_block {
+	display: block;
+	float: left; 
+}
+
+.right_block {
+	display: block;
+	float: right; 
+}
+
+.center_block {
+	display: block;
+	width: auto; 
+}
+
+.background.panel {
+	height: auto !important;
+	padding-bottom: 0;
+	left: 0;
+	width: 12%;
+	background-color: #fe7105; 
+	position: fixed;
+}
+
+.panel {
+	position: fixed;
+	height: auto;
+	width: 15%;
+	padding-bottom: 0px;
+	z-index: 1;
+}
+
+.pllogo {
+	width: 100%;
+	height: 27%;
+	z-index: 2;
+}
+
+.homebtn {
+	width: 75%;
+	height: 18%;
+	text-align: center;
+}
+
+.aboutbtn {
+	width: 75%;
+	height: 18%;
+	text-align: center;
+}
+
+.myptbtn {
+	width: 75%;
+	height: 18%;
+	text-align: center;
+}
+
+.ctcbtn {
+	width: 75%;
+	height: 18%;
+	text-align: center;
+}
+
+
+img.homebtn {
+	width: 50%;
+	height: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+img.aboutbtn {
+	width: 50%;
+	height: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+img.myptbtn {
+	width: 50%;
+	height: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+img.ctcbtn {
+	width: 50%;
+	height: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+.background.area {
+	height: auto !important;
+	padding-bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: 0px; 
+	background-image: url("../images/wall.jpg");
+	background-attachment: fixed;
+	background-size: 120% 100%;
+
+}
+
+.area {
+	width: auto;
+	height: auto;
+	padding-bottom: 0px;
+	z-index: -1;
+	margin: 1px dotted;
+	overflow-y: scroll;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	background-color: #fe7105;
+	z-index: -1;
+}
+
+
+
+
+.background.blank {
+	height: auto !important;
+	padding-bottom: 0;
+	left: 0;
+	width: 15%;
+	background-color: transparent;
+	margin-top: 32px;
+	margin-bottom: 5px; 
+}
+
+.blank {
+	height: auto;
+	width: 15%;
+	padding-bottom: 5px;
+}
+
+.background.blank2 {
+	height: auto !important;
+	padding-bottom: 0;
+	right: 0;
+	width: 15%;
+	background-color: transparent;
+	margin-top: 32px;
+	margin-bottom: 5px; 
+}
+
+.blank2 {
+	height: auto;
+	width: 15%;
+	padding-bottom: 5px;
+}
+
+.background.content {
+	width: 70%;
+	/*PLEASE ADJUST HEIGHT ON THE .HTML OR .PHP ITSELF IF YOU NEED MORE SPACE. AUTO AND 100% DI PO GUMAGANA :( */
+	padding-bottom: 10%;
+	left: 0;
+	right: 0;
+	background-color: #202020;
+	opacity: 0.8;
+	margin-top: 32px;
+	margin-bottom: 5px;
+	margin-left: 20%;
+	margin-right: 128px; 
+	padding: 20px;
+	
+}
+
+
+
+.footer {
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	background-color: #000;
+}
+
+img.PLLogo
+{
+margin-top: 10%;
+width: 100%;
+z-index: 2;
+}
+
+img.clbbtn
+{
+float: right;
+
+}
+p.label
+{
+color: #fff;
+padding-left: 250px;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+a.navlinks
+{
+	text-decoration: none;
+	color: #fff;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a.navlinks:hover
+{
+	color: #e41505;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+}
+
+
+a.contentlinks
+{
+	color: #fe7105;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a.contentlinks:hover
+{
+	color: #e41505;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+}
+/*use H1 for large texts inside the content div e.g. Important labels */
+h1 {
+	color: #fff;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+}
+/*use P for other texts. change text color if necessary*/
+p {
+	color: #fff;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+/*Use H3 for top labels*/
+h3 {
+	padding-left: 15%;
+	color: #fff;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 10%;
+}
+/*Use H4 for footer*/
+
+h4{
+	padding-left: 15%;
+	margin-bottom: 2px;
+	color: #fff;
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.3999996185303px;
+}
+
+
+blockquote {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714302062988px;
+}
